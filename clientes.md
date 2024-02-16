@@ -12,6 +12,7 @@
 
 #### Todas as análises foram feitas em Python 3.12 a partir do VSCode em uma máquina Windows
 
+
 1. Importar a biblioteca Pandas e exibir dados da tabela
 
 ```python
@@ -340,10 +341,8 @@ import plotly.express as px
 grafico = px.histogram(tabela, x='Idade', color='Categoria')
 grafico.show()
 ```
-
-<iframe src="C:\Users\mcaro\Google Drive\Hashtag\grafico.html" width="500" height="300"></iframe>
-
-
+![Histograma](grafico.png)
+```
 8. Exibir colunas da tabela
 
 ```python
